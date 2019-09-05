@@ -8,7 +8,7 @@ import requests
 base_url = 'http://weather.livedoor.com/forecast/webservice/json/v1?city={city}'
 
 # 調べたい都市のID
-city_id = '440020'
+city_id = '440040'
 
 # APIのURL
 url = base_url.format(city=city_id)
